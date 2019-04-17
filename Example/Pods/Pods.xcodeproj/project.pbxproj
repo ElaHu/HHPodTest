@@ -25,18 +25,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1CAB90850728F4CBBDEBBFE8529BC214 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		1F840A5573D4904DDE4E84B6794708FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1CAB90850728F4CBBDEBBFE8529BC214 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1F840A5573D4904DDE4E84B6794708FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		428FA6CA9E5F90B339B7DA8C969BA812 /* Pods-HHPodTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HHPodTest_Tests-dummy.m"; sourceTree = "<group>"; };
-		4BB9806820FE9F734CC82AA24156F0CD /* libPods-HHPodTest_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HHPodTest_Tests.a"; path = "libPods-HHPodTest_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB9806820FE9F734CC82AA24156F0CD /* libPods-HHPodTest_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHPodTest_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C1CE2B742F389C24792B0B6BBDABF2 /* Pods-HHPodTest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HHPodTest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6A20401853E1B438A78BC409D03F6FE6 /* HHPodTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HHPodTest.xcconfig; sourceTree = "<group>"; };
-		76B9C2254D7F9B96AEEB85F2A7F3D7CE /* libHHPodTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHHPodTest.a; path = libHHPodTest.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F2F9CC54F0FBA8216A7B74E1EC59B17 /* HHPodTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HHPodTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		76B9C2254D7F9B96AEEB85F2A7F3D7CE /* libHHPodTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHHPodTest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2F9CC54F0FBA8216A7B74E1EC59B17 /* HHPodTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HHPodTest.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		8512512F0DABE3487C757D9555EEA540 /* Pods-HHPodTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHPodTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8713F46292F8F502D56B115F778DCCCE /* HHPodTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HHPodTest-dummy.m"; sourceTree = "<group>"; };
 		91B296AC3C9D7DCB64C6ABE15C5BDC25 /* Coo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Coo.h; path = HHPodTest/Classes/Coo.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B017BC0332BBFA2189B6B3A2404436DC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HHPodTest/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		C9BF1EAD6469E3194685D63F934E30FF /* Pods-HHPodTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHPodTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CDFC7785BC6F9F968EFEDF2E7DE5C9E6 /* Pods-HHPodTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHPodTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -451,8 +451,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
