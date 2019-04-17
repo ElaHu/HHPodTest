@@ -1,4 +1,5 @@
-
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/ElaHu/HHSpecs.git'
 
 target 'HHPodTest_Tests' do
   pod 'HHPodTest', :path => './'
